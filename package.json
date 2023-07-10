@@ -1,0 +1,31 @@
+{
+  "name": "rate-limit",
+  "version": "1.0.0",
+  "description": "Rate limit testing for production idea",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nandu0786b/Rate-limiter-With-Redis-Mern_Stack.git"
+  },
+  "author": "Nand Kishore Ola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nandu0786b/Rate-limiter-With-Redis-Mern_Stack/issues"
+  },
+  "homepage": "https://github.com/Nandu0786b/Rate-limiter-With-Redis-Mern_Stack#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0"
+  }
+}
